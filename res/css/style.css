@@ -1,0 +1,15 @@
+h1{
+    font-size: 0px;
+    width: 120px;
+    height: 43px;
+    margin: 0;
+    background: url("../imgs/header-logo.svg") no-repeat center center;
+}
+
+.navbar-toggler {
+    border: 0px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../imgs/menu.svg");
+}
