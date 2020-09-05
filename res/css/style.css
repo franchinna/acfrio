@@ -1,3 +1,31 @@
+/*FUENTES PARA EL DOCUMENTO, LO VINCULAMOS*/
+/*
+
+COLOR AZUL: #0050A2
+COLOR ROJO: #EC1C24
+
+
+ */
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+/*
+.
+.
+ESTILOS GENERICOS..(APLICA A TODAS LAS PAGINAS DEL SITIO)
+.
+.
+*/
+
+/*SOLO AL BODY LE APLICAMOS LAS FUENTES GENERICAS PARA TEXTOS.*/
+body{
+    font-family: 'Montserrat';
+    color: #4e555b;
+}
+
+/*LE OCULTAMOS LA FONT, Y LE PONEMOS EL BG CON EL LOGO*/
 h1{
     font-size: 0px;
     width: 120px;
@@ -6,10 +34,20 @@ h1{
     background: url("../imgs/header-logo.svg") no-repeat center center;
 }
 
+/* LE SACAMOS EL BORDE AL ICO. POR DEFECTO BOOTSTRAP LE PONE UN BORDE*/
 .navbar-toggler {
     border: 0px;
 }
 
+/*CAMBIAMOS EL ICO DE HAMBURGUESA POR DEFECTO POR UNO MÁS CHETO*/
 .navbar-toggler-icon {
     background-image: url("../imgs/menu.svg");
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #4e555b;
+}
+.nav-link:hover{
+    color: #0050A2;
 }

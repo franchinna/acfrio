@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="res/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="res/css/style.css">
+    <link rel="icon" href="res/imgs/icosnow.ico">
     <title>acfrio - Aire Acondicionado para Automotor</title>
 </head>
 <body>
@@ -20,10 +21,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Galeria</a>
                     </li>
                 </ul>
             </div>
