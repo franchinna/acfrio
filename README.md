@@ -7,7 +7,7 @@ Link de bootstrap -> https://getbootstrap.com/
 <br/>
 Agrego archivo 'Git.pdf' para usar GIT (tutorial)
 <br/>
-Link de iconografía -> https://www.flaticon.com/ <!--(todavia no encontré una libreria exacta para usar. Pero busco los iconos que más se parezcan.)-->
+Link de iconografía -> https://www.flaticon.com/ FORMATO SVG <!--(todavia no encontré una libreria exacta para usar. Pero busco los iconos que más se parezcan.)-->
 
 # Carpetas del sitio:
 Res -> todos los archivos<br/>
