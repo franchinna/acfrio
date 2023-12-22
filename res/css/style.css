@@ -45,6 +45,10 @@ h1{
     border: 0px;
 }
 
+.navbar-brand{
+    margin: 0
+}
+
 /*CAMBIAMOS EL ICO DE HAMBURGUESA POR DEFECTO POR UNO MÁS CHETO*/
 .navbar-toggler-icon {
     background-image: url("../imgs/menu.svg");
@@ -58,6 +62,11 @@ h1{
     color: #0050A2;
 }
 
+.navbar-expand-lg {
+    justify-content: center;
+}
+
+
 header{
     position: sticky;
     width: 100%;
@@ -65,13 +74,15 @@ header{
     top: 0;
     left: 0;
     z-index: 999;
-    height: 10vh;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 main{
-    height: 90vh;
-    background-color: beige;
+    height: 100vh;
+    background: #0050a2;
+    background: linear-gradient(38deg,#0050a2 0%, #ec1c24 100%);
+    background: -webkit-linear-gradient(38deg,#0050a2 0%, #ec1c24 100%);
+    background: -moz-linear-gradient(38deg,#0050a2 0%, #ec1c24 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,4 +137,5 @@ main{
     max-width: 400px!important;
     padding: 0 10px 0 0;
     opacity: 0.5;
+    padding-top: 50px;
 }
