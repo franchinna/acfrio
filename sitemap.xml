@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Mapa del sitio de acfrio.com.ar
+
+  Es la lista de páginas que le pedimos a Google que indexe. Hoy el sitio es
+  una sola página, así que hay una sola URL.
+
+  QUÉ MANTENER:
+  - Si algún día se agregan páginas (por ejemplo /carga-de-gas/), se suma un
+    bloque <url> nuevo copiando el de abajo.
+  - Cuando cambie el contenido de verdad (texto, servicios, fotos),
+    actualizá <lastmod> con la fecha en formato AAAA-MM-DD. Google usa ese
+    dato para saber si vale la pena volver a pasar.
+  - Los anclajes internos (#servicios, #taller) NO van acá: no son páginas
+    distintas, son partes de la misma.
+
+  No se usan <priority> ni <changefreq> a propósito: Google los ignora desde
+  hace años y solo agregan ruido.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://acfrio.com.ar/</loc>
+    <lastmod>2026-08-17</lastmod>
+
+    <image:image>
+      <image:loc>https://acfrio.com.ar/res/imgs/og-acfrio.png</image:loc>
+      <image:title>acfrio — aire acondicionado y calefacción para el automotor</image:title>
+      <image:caption>Taller especializado en climatización automotor en Palermo, CABA.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://acfrio.com.ar/res/imgs/mapa-taller.jpg</image:loc>
+      <image:title>Ubicación del taller acfrio en Lavalleja 1279, Palermo</image:title>
+      <image:caption>Mapa del taller acfrio, a metros de Avenida Córdoba, Palermo, CABA.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://acfrio.com.ar/res/imgs/taller/carga-de-gas-r134a-equipo-recuperacion.jpg</image:loc>
+      <image:title>Carga de gas refrigerante R134a en el taller acfrio</image:title>
+      <image:caption>Estación de recuperación y carga de gas conectada a un vehículo en Palermo, CABA.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://acfrio.com.ar/res/imgs/taller/cambio-evaporador-tablero-desarmado.jpg</image:loc>
+      <image:title>Cambio de evaporador: tablero desmontado</image:title>
+      <image:caption>Para cambiar el evaporador del aire acondicionado hay que desarmar el tablero completo.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://acfrio.com.ar/res/imgs/taller/cambio-condensador-aire-acondicionado-camioneta.jpg</image:loc>
+      <image:title>Cambio de condensador de aire acondicionado</image:title>
+      <image:caption>Frente de una camioneta desarmado para reemplazar el condensador.</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://acfrio.com.ar/res/imgs/taller/aire-acondicionado-auto-electrico-byd-dolphin-mini.jpg</image:loc>
+      <image:title>Aire acondicionado de autos eléctricos</image:title>
+      <image:caption>BYD Dolphin Mini eléctrico en el taller acfrio de Palermo.</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

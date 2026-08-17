@@ -34,3 +34,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Adobe / archivos editables de diseño
+# Ojo: hace falta el * — un patrón ".psd" solo matchea un archivo llamado
+# literalmente ".psd", no "logo.psd".
+*.psd
+*.ai
+*.xd
+*.eps
+*.indd
+*.sketch
+*.fig
+
+# Fotos originales del celular, sin optimizar. Al sitio suben las versiones
+# WebP/JPG que están en res/imgs/taller/, no estas.
+res/imgs/taller/originales/

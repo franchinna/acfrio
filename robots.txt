@@ -1,0 +1,84 @@
+# ==========================================================================
+# robots.txt de acfrio.com.ar
+#
+# Este archivo le dice a los rastreadores (Google, Bing, y los bots de IA)
+# qué pueden mirar del sitio. No es seguridad: cualquiera puede entrar igual
+# a una URL. Es una indicación, y los buscadores serios la respetan.
+#
+# Regla práctica: si agregás páginas nuevas al sitio, no hace falta tocar
+# nada acá. Solo actualizá sitemap.xml.
+# ==========================================================================
+
+
+# --------------------------------------------------------------------------
+# Content signals (Cloudflare / IETF)
+# Declara para qué se puede usar el contenido del sitio:
+#   search   = aparecer en resultados de búsqueda            -> SÍ
+#   ai-input = que una IA lea la página para responder y
+#              citarnos (ChatGPT, AI Overviews, Perplexity)  -> SÍ
+#   ai-train = usar el contenido para entrenar modelos       -> NO
+#
+# Queremos que la IA nos encuentre y nos recomiende (ai-input), pero eso no
+# requiere regalar el contenido para entrenamiento (ai-train).
+# --------------------------------------------------------------------------
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
+
+# --------------------------------------------------------------------------
+# Todos los rastreadores
+# --------------------------------------------------------------------------
+User-agent: *
+Allow: /
+
+# Carpetas de trabajo interno: no aportan nada en Google y ensucian
+# los resultados si se indexan.
+Disallow: /admin/
+Disallow: /docu/
+
+
+# --------------------------------------------------------------------------
+# Buscadores con IA: los dejamos entrar explícitamente para poder aparecer
+# citados cuando alguien pregunta "taller de aire acondicionado de auto en
+# Palermo" en un chat en vez de en Google.
+# --------------------------------------------------------------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+
+# --------------------------------------------------------------------------
+# Mapa del sitio: la lista de URLs que queremos que indexen.
+# --------------------------------------------------------------------------
+Sitemap: https://acfrio.com.ar/sitemap.xml
